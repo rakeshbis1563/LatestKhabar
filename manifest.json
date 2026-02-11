@@ -1,0 +1,46 @@
+{
+  "name": "Latest Khabar - Hindi News Portal",
+  "short_name": "Latest Khabar",
+  "description": "Breaking News in Hindi - Latest Khabar delivers authentic, up-to-date news on politics, business, cricket, technology, entertainment and more.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#DC2626",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23DC2626' width='192' height='192' rx='32'/><text x='50%25' y='50%25' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23DC2626' width='512' height='512' rx='64'/><text x='50%25' y='50%25' font-size='200' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23DC2626' width='192' height='192' rx='45'/><text x='50%25' y='50%25' font-size='80' fill='white' text-anchor='middle' dominant-baseline='central' font-weight='bold'>LK</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["news"],
+  "shortcuts": [
+    {
+      "name": "Latest News",
+      "short_name": "News",
+      "description": "Read the latest breaking news",
+      "url": "/"
+    },
+    {
+      "name": "Trending",
+      "short_name": "Trending",
+      "description": "See trending stories",
+      "url": "/?trending=true"
+    }
+  ]
+}
